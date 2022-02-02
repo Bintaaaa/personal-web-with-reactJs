@@ -1,7 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import '../../assets/css/custom.css';
-import '../../assets/css/bootstrap.min.css';
 import ecommerce from '../../assets/images/ecommerce.png';
 import design from '../../assets/images/design.png';
 import web from '../../assets/images/web.png';
