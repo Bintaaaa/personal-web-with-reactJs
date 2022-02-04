@@ -104,18 +104,7 @@
 }
 
 /* navbar */
-/* .navBrand{
-    font-family: 'Montserrat',sans-serif;
-    color: #ffffff !important;
-    font-weight: 700;
-    font-size: 30px;
-}
-.navBrandScroll{
-    font-family: 'Montserrat',sans-serif;
-     color: #051b35 !important;
-     font-weight: 700;
-     font-size: 30px;
-} */
+
 .navBg{
     -webkit-transition: background-color 400ms linear;
     -moz-transition:background-color 400ms linear ;
@@ -204,3 +193,20 @@
     margin-bottom: 12px;
 }
 /* end of summery */
+
+/* Project */
+.projectCard{
+    background-color: #ffffff;
+    width: 22em;
+    border-radius: 40px 40px;
+    margin: 1em;
+    cursor: pointer;
+    box-shadow: 0 13px 25px -5px;
+    transition: all ease 200ms;
+}
+.projectCard:hover{
+    transform: scale(1.03);
+    box-shadow: 0 13px 30px -5px;
+}
+/* end of Project */
+
