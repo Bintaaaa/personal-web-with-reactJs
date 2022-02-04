@@ -179,7 +179,7 @@
     font-size: 14px;
 }
 .workCard{
-    margin-top: 25%;
+    margin-top: 20%;
     padding: 10px 10px 10px 10px;
     border-radius: 3px;
 }
@@ -222,3 +222,17 @@
     text-decoration: none;
 }
 /* end of Course */
+
+/* Video */
+.videoCard{
+    box-shadow: 0 13px 10px -5px;
+    padding: 8rem 3rem 8rem 3rem;
+    background-color: #051b35;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+.videoText{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+}
+/* end of Video */

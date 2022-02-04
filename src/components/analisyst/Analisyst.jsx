@@ -46,13 +46,10 @@ class Analisyst extends Component {
                                     <Bar dataKey="project" fill="#8884d8" >
 
                                     </Bar>
-
-
                                 </BarChart>
                             </ResponsiveContainer>
-
                         </Col>
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={12} md={12} sm={12}>
                             <p className='text-justify serviceCardDescription'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic minus neque magnam, facere quae vero repellat? Assumenda, molestiae dicta? Sint saepe id vel delectus accusamus, veritatis consequuntur. Est dolore perspiciatis iusto vero nemo. Ullam, aliquid! Architecto vitae laborum eum ipsa earum blanditiis labore, porro doloremque nisi incidunt fugit. Cum eveniet temporibus, quibusdam natus quasi, maiores odit corrupti mollitia placeat, rem eaque distinctio architecto. Eaque nobis architecto dolore atque consequatur animi illum expedita quis, magnam excepturi repellat numquam officia impedit voluptate quas tempore. Eum non nostrum et architecto, autem optio voluptatibus voluptas ex incidunt dicta! Quae consequuntur sequi voluptatum harum blanditiis.</p>
                         </Col>
                     </Row>
