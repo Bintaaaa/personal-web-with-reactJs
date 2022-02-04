@@ -2,10 +2,12 @@ import React from "react";
 import Analisyst from "./components/analisyst/Analisyst";
 import Course from "./components/course/Course";
 import RecentProject from "./components/recent/RecentProject";
+import ReviewClient from "./components/review/ReviewClient";
 import Service from "./components/service/Service";
 import Summery from "./components/summery/Summery";
 import TopBanner from "./components/topBanner/TopBanner";
 import TopNavigation from "./components/topNavigation/TopNavigation";
+import Video from "./components/video/Video";
 function App() {
   return (
     <div>
@@ -16,6 +18,8 @@ function App() {
       <Summery />
       <RecentProject />
       <Course />
+      <Video />
+      <ReviewClient />
     </div>
   );
 }
