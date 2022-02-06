@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./components/about/About";
 import Analisyst from "./components/analisyst/Analisyst";
 import Course from "./components/course/Course";
 import RecentProject from "./components/recent/RecentProject";
@@ -20,6 +21,7 @@ function App() {
       <Course />
       <Video />
       <ReviewClient />
+      <About />
     </div>
   );
 }
