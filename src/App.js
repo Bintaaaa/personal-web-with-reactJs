@@ -2,6 +2,7 @@ import React from "react";
 import About from "./components/about/About";
 import Analisyst from "./components/analisyst/Analisyst";
 import Course from "./components/course/Course";
+import Footer from "./components/footer/Footer";
 import RecentProject from "./components/recent/RecentProject";
 import ReviewClient from "./components/review/ReviewClient";
 import Service from "./components/service/Service";
@@ -22,6 +23,7 @@ function App() {
       <Video />
       <ReviewClient />
       <About />
+      <Footer />
     </div>
   );
 }
