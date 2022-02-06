@@ -11,18 +11,19 @@ class TopNavigation extends Component {
             navbarBrand: "navBrand",
             navbarLogo: [whiteLogo],
             navbarBg: "navBg",
-            navbarVariant: "navItem"
+            navbarVariant: "navItem",
+            navVar: 'dark'
         }
     }
 
     onScroll = () => {
         if (window.scrollY > 100) {
             this.setState({
-                navbarBrand: "navBrandScroll", navbarLogo: [blackLogo], navbarBg: "navBgScroll", navbarVariant: "navItemScroll"
+                navbarBrand: "navBrandScroll", navbarLogo: [blackLogo], navbarBg: "navBgScroll", navbarVariant: "navItemScroll", navVar: 'light'
             });
         } else if (window.screenY < 100) {
             this.setState({
-                navbarBrand: "navBrand", navbarLogo: [whiteLogo], navbarBg: "navBg", navbarVariant: "navItem"
+                navbarBrand: "navBrand", navbarLogo: [whiteLogo], navbarBg: "navBg", navbarVariant: "navItem", navVar: 'dark'
             });
         }
     }
@@ -33,7 +34,7 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar fixed='top' expand="lg" variant={this.navbarVariant} className={this.state.navbarBg}>
+                <Navbar className={this.state.navbarBg} collapseOnSelect fixed="top" expand="lg" variant={this.state.navVar}>
                     <Container>
                         <Navbar.Brand href="#home" className={this.state.navbarBrand}><img src={this.state.navbarLogo} /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
