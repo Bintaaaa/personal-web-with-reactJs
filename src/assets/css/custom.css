@@ -390,3 +390,35 @@ a.twitter{
     color: #ffffff;
 }
 /* end of Footer */
+
+/* About Page */
+.topFixedPage{
+    background-image: url('../images/page.png');
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.topPageOverlay{
+    position: absolute;
+    min-height: 250px;
+    width: 100%;
+    background-color: rgba(31, 40, 90, 0.7);
+}
+.topContentPage{
+    margin-top: 10em;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.topPageTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+}
+/* end of About Page */
