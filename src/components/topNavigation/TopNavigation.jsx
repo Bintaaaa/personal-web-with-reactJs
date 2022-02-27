@@ -4,6 +4,7 @@ import whiteLogo from '../../assets/images/logo_white.png';
 import blackLogo from '../../assets/images/logo_black.png';
 import '../../assets/css/custom.css';
 import '../../assets/css/bootstrap.min.css';
+import { NavLink } from 'react-router-dom';
 class TopNavigation extends Component {
     constructor() {
         super();
@@ -40,12 +41,27 @@ class TopNavigation extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav" >
                             <Nav className="justify-content-end" style={{ width: "100%" }}>
-                                <Nav.Link href="#home" className={this.state.navbarVariant}>Home</Nav.Link>
-                                <Nav.Link href="#home" className={this.state.navbarVariant}>About</Nav.Link>
-                                <Nav.Link href="#home" className={this.state.navbarVariant}>Service</Nav.Link>
-                                <Nav.Link href="#home" className={this.state.navbarVariant}>Course</Nav.Link>
-                                <Nav.Link href="#home" className={this.state.navbarVariant}>Portofolio</Nav.Link>
-                                <Nav.Link href="#home" className={this.state.navbarVariant}>Contact </Nav.Link>
+                                <Nav.Link>
+                                    <NavLink exact={true} activeStyle={{
+                                        fontWeight: "bold",
+                                        color: "#3ffd900"
+                                    }} to="/" className={this.state.navbarVariant}>Home</NavLink>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <NavLink to="/about" className={this.state.navbarVariant}>About</NavLink>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <NavLink to="/service" className={this.state.navbarVariant}>Service</NavLink>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <NavLink to="/course" className={this.state.navbarVariant}>Course</NavLink>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <NavLink to="/portofolio" className={this.state.navbarVariant}>Portofolio</NavLink>
+                                </Nav.Link>
+                                <Nav.Link>
+                                    <NavLink to="/contact" className={this.state.navbarVariant}>Contact </NavLink>
+                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
